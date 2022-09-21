@@ -16,23 +16,20 @@ for line in reader:
 
 print(high_temp_8)
 print(low_temp_8)
+x_val_day = []
 
-x_val_high = []
-y_val_high = []
-x_val_low = []
-y_val_low = []
-for i in range(0, 30):
-    y_val_high.append(high_temp_8[i])
-    x_val_high.append(i+1)
-    y_val_low.append(low_temp_8[i])
-    x_val_low.append(i+1)
+for i in range(1, len(high_temp_8)): #1부터 31까지니까 31개
+    x_val_day.append(i + 1)
+    high_temp_8[i-1] = float(high_temp_8[i-1])
+    low_temp_8[i-1] = float(low_temp_8[i-1])
 
 
 
-plt.plot(x_val_high, y_val_high, color='b', label="8월고온")
-plt.plot(x_val_low, y_val_low, color='r', label="8월저온")
+plt.plot(x_val_day, high_temp_8, color='b', label="8월고온")
+plt.plot(x_val_day, low_temp_8, color='r', label="8월저온")
 plt.xlabel('day')
 plt.ylabel('temperature')
+#plt.ylim(5, 50)
 plt.title('August')
 plt.legend()
 plt.show()

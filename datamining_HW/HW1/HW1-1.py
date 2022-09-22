@@ -19,7 +19,7 @@ print(low_temp_8)
 x_val_day = []
 
 for i in range(1, len(high_temp_8)+1): # 1부터 31까지니까 31개
-    x_val_day.append(i + 1)
+    x_val_day.append(i)
     if '' != high_temp_8[i-1]: # 실수로 변경
         high_temp_8[i-1] = float(high_temp_8[i-1])
     elif i==1:

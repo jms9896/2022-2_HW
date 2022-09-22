@@ -20,13 +20,12 @@ for line in reader:
             print(line[3])
             avg_temp[i-1].append(line[3]) # 1~8월 평균기온 모음집
     '''
-    if "2022.1" in line[2]:
-        for i in range(len(line[3])):
-            avg_temp[0].append(line[3])
-    elif "2022.1" not in line[2]:
-        print("범위안에 값 없음")
+    for i in range(8):
+        if f"2022.{i+1}" in line[2]:
+            avg_temp[i].append(line[3])
+
 print(avg_temp)
-plt.boxplot(avg_temp)
+plt.boxplot(avg_temp[0])
 
 plt.xlabel('month')
 plt.ylabel('temperature')

@@ -25,7 +25,11 @@ for line in reader:
             avg_temp[i].append(line[3])
 
 print(avg_temp)
-plt.boxplot(avg_temp[0])
+for i in range(8):
+    for j in range(len(avg_temp[i])):
+        avg_temp[i][j] = float(avg_temp[i][j])
+print(avg_temp)
+plt.boxplot([avg_temp[0],avg_temp[1],avg_temp[2],avg_temp[3],avg_temp[4],avg_temp[5],avg_temp[6],avg_temp[7]])
 
 plt.xlabel('month')
 plt.ylabel('temperature')

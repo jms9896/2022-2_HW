@@ -10,9 +10,9 @@ reader = csv.reader(f)
 high_temp_1 = [] # 1월
 high_temp_8 = [] # 8월
 for line in reader:
-    if "2022-01" in line[2]:
+    if "2022.1" in line[2]:
         high_temp_1.append(line[4]) # 1월 최고기온 모음집
-    if "2022-08" in line[2]:
+    if "2022.8" in line[2]:
         high_temp_8.append(line[4]) # 8월 최고기온 모음집
 
 

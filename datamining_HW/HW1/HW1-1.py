@@ -10,7 +10,7 @@ reader = csv.reader(f)
 high_temp_8 = []
 low_temp_8 = []
 for line in reader:
-    if "2022-08" in line[2]:
+    if "2022.8" in line[2]:
         high_temp_8.append(line[4])
         low_temp_8.append(line[6])
 

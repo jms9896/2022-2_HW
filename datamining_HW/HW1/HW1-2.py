@@ -1,3 +1,5 @@
+# 2015251165 정민성 HW1-2
+
 import matplotlib.pyplot as plt
 from matplotlib import rc, font_manager
 rc('font', family="D2Coding")#한글 폰트 지정

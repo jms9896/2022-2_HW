@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bec753e-efb3-4163-84a8-babd947e574b" name="Changes" comment="이중리스트 생성성공">
+    <list default="true" id="7bec753e-efb3-4163-84a8-babd947e574b" name="Changes" comment="나로호 발사성공!!!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,14 +31,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/minseongjung/Documents/workspace/git/2022-2_HW/datamining_HW/HW1",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/minseongjung/Documents/workspace/git/2022-2_HW/datamining_HW/HW1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -94,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663849258173</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="나로호 발사성공!!!">
+      <created>1663849594287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663849594287</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +126,7 @@
     <MESSAGE value="seoul 파일 바뀌어서 search코드도 바꿔줬음" />
     <MESSAGE value="1 2 에러수정, 3 잡는중" />
     <MESSAGE value="이중리스트 생성성공" />
-    <option name="LAST_COMMIT_MESSAGE" value="이중리스트 생성성공" />
+    <MESSAGE value="나로호 발사성공!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="나로호 발사성공!!!" />
   </component>
 </project>

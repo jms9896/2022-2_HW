@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bec753e-efb3-4163-84a8-babd947e574b" name="Changes" comment="나로호 발사성공!!!">
+    <list default="true" id="7bec753e-efb3-4163-84a8-babd947e574b" name="Changes" comment="과제제출준비완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-2.py" afterDir="false" />
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663849594287</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="과제제출준비완료">
+      <created>1663849711864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663849711864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +134,7 @@
     <MESSAGE value="1 2 에러수정, 3 잡는중" />
     <MESSAGE value="이중리스트 생성성공" />
     <MESSAGE value="나로호 발사성공!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="나로호 발사성공!!!" />
+    <MESSAGE value="과제제출준비완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="과제제출준비완료" />
   </component>
 </project>

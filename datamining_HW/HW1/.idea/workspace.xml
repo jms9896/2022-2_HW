@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="7bec753e-efb3-4163-84a8-babd947e574b" name="Changes" comment="25번째줄 not in 코드로 8월8일 공백 찾으려함" />
+=======
+    <list default="true" id="7bec753e-efb3-4163-84a8-babd947e574b" name="Changes" comment="과제제출준비완료">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/HW1-3.py" afterDir="false" />
+    </list>
+>>>>>>> aa7fadecc158b5cb762ad18bec2fd554d0ce9717
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +39,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/UNI-002/workspace/git/2022-2_HW/datamining_HW/HW3&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/minseongjung/Documents/workspace/git/2022-2_HW/datamining_HW/HW1&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
@@ -78,6 +87,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663796384152</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00006" summary="25번째줄 not in 코드로 8월8일 공백 찾으려함">
       <created>1663796628815</created>
       <option name="number" value="00006" />
@@ -86,6 +96,37 @@
       <updated>1663796628815</updated>
     </task>
     <option name="localTasksCounter" value="7" />
+=======
+    <task id="LOCAL-00006" summary="1 2 에러수정, 3 잡는중">
+      <created>1663848829960</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663848829960</updated>
+    </task>
+    <task id="LOCAL-00007" summary="이중리스트 생성성공">
+      <created>1663849258173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663849258173</updated>
+    </task>
+    <task id="LOCAL-00008" summary="나로호 발사성공!!!">
+      <created>1663849594287</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663849594287</updated>
+    </task>
+    <task id="LOCAL-00009" summary="과제제출준비완료">
+      <created>1663849711864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663849711864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+>>>>>>> aa7fadecc158b5cb762ad18bec2fd554d0ce9717
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,7 +146,15 @@
     <MESSAGE value="뭔가 이렇게하면 될 것 같은데" />
     <MESSAGE value="seoul 파일 교체" />
     <MESSAGE value="seoul 파일 바뀌어서 search코드도 바꿔줬음" />
+<<<<<<< HEAD
     <MESSAGE value="25번째줄 not in 코드로 8월8일 공백 찾으려함" />
     <option name="LAST_COMMIT_MESSAGE" value="25번째줄 not in 코드로 8월8일 공백 찾으려함" />
+=======
+    <MESSAGE value="1 2 에러수정, 3 잡는중" />
+    <MESSAGE value="이중리스트 생성성공" />
+    <MESSAGE value="나로호 발사성공!!!" />
+    <MESSAGE value="과제제출준비완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="과제제출준비완료" />
+>>>>>>> aa7fadecc158b5cb762ad18bec2fd554d0ce9717
   </component>
 </project>

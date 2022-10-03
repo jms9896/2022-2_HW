@@ -16,6 +16,12 @@ Assignment 2, Clustering by k-Means
  Use the row number starting from 0 as a gene ID.
 
  Round the Euclidean distance and the mean points to 3 decimal places.
+
+ cmder 가서
+ "
+ python ./HW2.py assignment2_input.txt
+ "
+ 치면 실행됩니다.
 '''
 
 import numpy as np
@@ -24,7 +30,7 @@ import matplotlib.pyplot as plt
 import sys
 
 def main(args):
-    with open(args, 'r') as file:
+    with open(args, 'r', encoding='UTF-8') as file:
         print(file.read())
 
 if __name__ == '__main__':

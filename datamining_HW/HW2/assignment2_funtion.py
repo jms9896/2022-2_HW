@@ -10,8 +10,8 @@ def main(args):
         for i in range(len(genes_full) % 12):
             for j in range(len(genes_full)):
                 genes_slice[i].append(genes_full[j])
-        print("hello")
-
+        # print("hello")
+#print(genes_full)
 
 # if __name__ == '__main__':
 #     main(sys.argv[1])

@@ -29,14 +29,14 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import assignment2_funtion
+import sys
 
+if __name__ == '__main__':
+    assignment2_funtion.main(sys.argv[1])
 
-genes_slice = []
-
-
-
-
-df = pd.DataFrame(row = ['time_serial'], columns=['time_point'])
-for i in range(len(genes_full) % 12):
-    for j in range(len(genes_full):
-        df.loc[i].append(genes_full[j])
+# genes_slice = []
+#
+# df = pd.DataFrame(row = ['time_serial'], columns=['time_point'])
+# for i in range(len(genes_full) % 12):
+#     for j in range(len(genes_full):
+#         df.loc[i].append(genes_full[j])

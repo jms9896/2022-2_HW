@@ -33,21 +33,27 @@ import sys
 
 #모듈화 나중에합시다.
 
-def main(args): # CLI Arguments로 파일 불러오기
-    with open(args, 'r', encoding='UTF-8') as file:
-        global genes_full
-        global genes_slice
-        genes_full = file.read().split()
-        genes_slice = []
-        #len(genes_full) == 6000
-        for i in range(len(genes_full) % 12):
-            if i//12==0:
-                genes_slice.append([])
-            genes_slice[i%12].append(genes_full[i])
-        print(genes_slice)
-if __name__ == '__main__':
-   main(sys.argv[1])
+# CLI Arguments로 파일 불러오기
+with open('./assignment2_input.txt', 'r', encoding='UTF-8') as file:
+    # global genes_full
+    # global genes_slice
+    genes_full = file.read().split()
+genes_slice = []
+count = 0
+print(genes_full)
+#len(genes_full) == 6000
+for i in genes_full:
+    if count%12 == 0:
+        genes_slice.append([])
+    genes_slice[count//12].append(float(i))
+    count = count+1
+print(genes_slice)
 
+df = pd.DataFrame(columns = ['time_point'])
+# for i in range(count//12):
+#     df.append([])
+#     df[i] = genes_slice[i]
+#df.head(12)
 # 전체 데이터 들어있는 genes_full
 # 12개로 쪼개어져 들어있는 genes_slice
 
